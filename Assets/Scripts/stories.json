@@ -1,0 +1,74 @@
+{"story": [  
+    {"one": [  
+        {"days": [ 
+            {"one": [
+                {"order": "One", "speech": "Charlie: Hey man, did you see Stacy's new post on buzznet? Doesn't she look so stupid!?", "responses": [["Yeah Man How Ugly!", 50, 30], ["Don't Really Care Man!", 10, 10], ["Nah She Looks Nice", -10, -20], ["Ehhhhh", 0, 0]]},
+                {"order": "two", "speech": "Charlie: Doesn't matter what you think anyway, what should I comment on it with?", "responses": [["DELETE YOUR ACCOUNT! You Look Ugly!", 100, 30], ["How Blumin Ugly!", 20, 10], ["You Look Nice", -30, -20], ["Not A Fan", 10, 0]]}
+            ]},
+            {"two": [
+                {"order": "One", "speech": "Charlie: Hey Stacy, I think you smell very bad! (At You) You agree don't you?", "responses": [["Yeah, Stinky!", 150, 30], ["Why would I care?", 30, 10], ["Leave Me Out Of This!", 10, -20], ["No! And Leave Her Alone!", -50, 0]]},
+                {"order": "two", "speech": "Jemma: Hey, I'm Stacy's friend Jemma, do you even like Charlie he's so mean!", "responses": [["Yeah He's The Best", 50, 30], ["He's Alright", 20, 10], ["Not Even A Little!", -20, 0], ["I Don't Really Know", 0, -20]]}
+            ]},
+            {"three": [
+                {"order": "One", "speech": "Charlie: You hear Stacy didn't come into school today!? God isn't she pathetic!?", "responses": [["Ehhh, don't really care!", 30, 30], ["Why would I care?", 20, 10], ["That Sucks!", 0, 0], ["Hopefully It'll Be Two Days!", 10, -20]]},
+                {"order": "two", "speech": "Charlie: But anyway! You think we should go round hers later and have some more fun?", "responses": [["YES!", 100, 30], ["I Mean If I'm Not Busy", 20, 10], ["Nah, I Think You Need A Life", -30, 0], ["Fine", 10, -20]]}
+            ]},
+            {"four": [
+                {"order": "One", "speech": "Teacher: Hey dude, it's Jack, Stacy's tutor, do you know who 'bully101' is on buzznet?", "responses": [["Someone Who Goes To This School!", -10, 30], ["I Can't Tell You I'll Get Bullied Too", -20, 10], ["It's Charlie!!", 50, -20], ["Not A Clue", -50, 10]]},
+                {"order": "two", "speech": "Teacher: I understand, will YOU please be kind to Stacy?", "responses": [["NAH", 100, -30], ["If No Ones Around", 20, 10], ["Of Course", -30, -20], ["Maybe", 0, 0]]}
+            ]},
+            {"five": [
+                {"order": "One", "speech": "Charlie: Hey, Stacy, I'm sorry, (At You) He kinda forced me to do it", "responses": [["Haha And It Was Fun!", 30, 30], ["Nah It Was Him", 0, 10], ["It Was Him! I Always Felt Bad", -30, -20], ["Leave Me Out Of This", 0, 0]]},
+                {"order": "two", "speech": "Stacy: (At You) I don't care if this was you or not, I think you shouldn't freinds with him!", "responses": [["Leave Me Alone, He's My Mate", 10, 30], ["I Don't Know", 5, -10, -20], ["You're Right", -30], ["Maybe", 0, 0]]}
+            ]}
+        ]}
+    ]},
+    {"two": [
+        {"days": [ 
+            {"one": [
+                {"order": "One", "speech": "Bla Bla", "responses": ["", "", "", ""]},
+                {"order": "two", "speech": "Bla Bla", "responses": ["", "", "", ""]}
+            ]},
+            {"two": [
+                {"order": "One", "speech": "Bla Bla", "responses": ["", "", "", ""]},
+                {"order": "two", "speech": "Bla Bla", "responses": ["", "", "", ""]}
+            ]},
+            {"three": [
+                {"order": "One", "speech": "Bla Bla", "responses": ["", "", "", ""]},
+                {"order": "two", "speech": "Bla Bla", "responses": ["", "", "", ""]}
+            ]},
+            {"four": [
+                {"order": "One", "speech": "Bla Bla", "responses": ["", "", "", ""]},
+                {"order": "two", "speech": "Bla Bla", "responses": ["", "", "", ""]}
+            ]},
+            {"five": [
+                {"order": "One", "speech": "Bla Bla", "responses": ["", "", "", ""]},
+                {"order": "two", "speech": "Bla Bla", "responses": ["", "", "", ""]}
+            ]}
+        ]}
+    ]},
+    {"three": [
+        {"days": [ 
+            {"one": [
+                {"order": "One", "speech": "Bla Bla", "responses": ["", "", "", ""]},
+                {"order": "two", "speech": "Bla Bla", "responses": ["", "", "", ""]}
+            ]},
+            {"two": [
+                {"order": "One", "speech": "Bla Bla", "responses": ["", "", "", ""]},
+                {"order": "two", "speech": "Bla Bla", "responses": ["", "", "", ""]}
+            ]},
+            {"three": [
+                {"order": "One", "speech": "Bla Bla", "responses": ["", "", "", ""]},
+                {"order": "two", "speech": "Bla Bla", "responses": ["", "", "", ""]}
+            ]},
+            {"four": [
+                {"order": "One", "speech": "Bla Bla", "responses": ["", "", "", ""]},
+                {"order": "two", "speech": "Bla Bla", "responses": ["", "", "", ""]}
+            ]},
+            {"five": [
+                {"order": "One", "speech": "Bla Bla", "responses": ["", "", "", ""]},
+                {"order": "two", "speech": "Bla Bla", "responses": ["", "", "", ""]}
+            ]}
+        ]}
+    ]}
+]}
