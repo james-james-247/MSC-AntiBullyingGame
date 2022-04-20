@@ -15,7 +15,7 @@ public class jsonReader : MonoBehaviour
     public Button optionFour;
 
     //The selected story and the changer thats a counter
-    public int selectedGame = Controller.selectedGame;
+    //public int selectedGame = variables.selectedGame;
     public int changer = 0;
 
     public string[][] storyoneArray = new string[][]
@@ -42,7 +42,7 @@ public class jsonReader : MonoBehaviour
         if(Controller.currentDay < 5){
 
             string speech, one, two, three, four;
-            speech = storyoneArray[changer][0].ToString();
+            speech = storyoneArray[changer][0];
             one = storyoneArray[changer][1];
             two = storyoneArray[changer][2];
             three = storyoneArray[changer][3];
@@ -60,21 +60,6 @@ public class jsonReader : MonoBehaviour
         {
             //Send to results page
 
-        }
-    }
-
-    public void buttonClicked()
-    {
-        changer = changer + 1;
-        print(changer);
-
-        if(changer == 2 || changer == 4 || changer == 6 || changer == 8)
-        {
-            
-        }
-        else
-        {
-            textFiller();
         }
     }
 }

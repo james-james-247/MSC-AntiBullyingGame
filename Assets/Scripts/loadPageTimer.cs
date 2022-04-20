@@ -19,7 +19,7 @@ public class loadPageTimer : MonoBehaviour
         new string[]{"Player Hint: Remember Everyone Is Going Through Things In Their Lives!"},
     };
 
-    public float targetTime = 5.0f;
+    public float targetTime = 3.0f;
     // Start is called before the first frame update
     void Start()
     {

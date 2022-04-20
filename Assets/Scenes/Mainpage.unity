@@ -302,8 +302,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c16c62833a45cc842adb5caab545b973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechBox: {fileID: 0}
   bullyScore: 0
   popularity: 500
+  changer: 0
 --- !u!1 &458700361
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,8 +452,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c16c62833a45cc842adb5caab545b973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechBox: {fileID: 0}
   bullyScore: 0
   popularity: 500
+  changer: 0
 --- !u!1 &460922051
 GameObject:
   m_ObjectHideFlags: 0
@@ -598,8 +602,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c16c62833a45cc842adb5caab545b973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechBox: {fileID: 0}
   bullyScore: 0
   popularity: 500
+  changer: 0
 --- !u!1 &752544021
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,7 +1034,6 @@ MonoBehaviour:
   optionTwo: {fileID: 458700363}
   optionThree: {fileID: 2064281855}
   optionFour: {fileID: 460922053}
-  selectedGame: 0
   changer: 0
 --- !u!1 &1914988154
 GameObject:
@@ -1255,8 +1260,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c16c62833a45cc842adb5caab545b973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechBox: {fileID: 1752157907}
   bullyScore: 0
   popularity: 500
+  changer: 0
 --- !u!1 &2064281853
 GameObject:
   m_ObjectHideFlags: 0
@@ -1403,8 +1410,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c16c62833a45cc842adb5caab545b973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechBox: {fileID: 0}
   bullyScore: 0
   popularity: 500
+  changer: 0
 --- !u!1 &2120361640
 GameObject:
   m_ObjectHideFlags: 0
