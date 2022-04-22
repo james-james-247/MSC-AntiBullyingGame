@@ -539,6 +539,7 @@ GameObject:
   - component: {fileID: 427118995}
   - component: {fileID: 427118994}
   - component: {fileID: 427118993}
+  - component: {fileID: 427118996}
   m_Layer: 5
   m_Name: HomeButton
   m_TagString: Untagged
@@ -609,7 +610,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 427118994}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 427118996}
+        m_TargetAssemblyTypeName: results, Assembly-CSharp
+        m_MethodName: clicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &427118994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -648,6 +661,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427118991}
   m_CullTransparentMesh: 1
+--- !u!114 &427118996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427118991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c83ed1586968ac4cb6741f07725c010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullyScore: {fileID: 270637258}
+  popScore: {fileID: 1974014341}
 --- !u!1 &990929982
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,7 +989,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Results Time:'
+  m_Text: 'Your Popularity Score: '
 --- !u!222 &1974014342
 CanvasRenderer:
   m_ObjectHideFlags: 0

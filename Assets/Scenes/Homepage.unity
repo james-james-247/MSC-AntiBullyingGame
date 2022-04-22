@@ -316,6 +316,7 @@ GameObject:
   - component: {fileID: 281498924}
   - component: {fileID: 281498923}
   - component: {fileID: 281498922}
+  - component: {fileID: 281498925}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -388,6 +389,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &281498925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281498921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59208c7a9d688874e9d6f08a94a3849a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &324992224
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,6 +728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c16c62833a45cc842adb5caab545b973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechBox: {fileID: 0}
 --- !u!1 &547969631
 GameObject:
   m_ObjectHideFlags: 0
@@ -894,9 +908,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 552141524}
-        m_TargetAssemblyTypeName: Controller, Assembly-CSharp
-        m_MethodName: chosenGame
+      - m_Target: {fileID: 552141521}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Dropdown, UnityEngine.UI
+        m_MethodName: set_value
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -957,6 +971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c16c62833a45cc842adb5caab545b973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechBox: {fileID: 0}
 --- !u!1 &553794763
 GameObject:
   m_ObjectHideFlags: 0
@@ -2023,6 +2038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c16c62833a45cc842adb5caab545b973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechBox: {fileID: 0}
 --- !u!1 &1964589766
 GameObject:
   m_ObjectHideFlags: 0
