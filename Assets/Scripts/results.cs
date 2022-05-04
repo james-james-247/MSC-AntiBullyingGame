@@ -10,6 +10,7 @@ public class results : MonoBehaviour
 
     public Text bullyScore;
     public Text popScore;
+    public Text bestScore;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +22,19 @@ public class results : MonoBehaviour
         string pop = readerTwo.ReadToEnd();
         readerTwo.Close();
 
+        StreamReader readerThree = new StreamReader("Assets/bestResult.txt"); 
+        string best = readerThree.ReadToEnd();
+        readerThree.Close();
+
         bullyScore.text = "Your Bully Score: " + bully;
         popScore.text = "Your Popularity Score: " + pop;
+        bestScore.text = "Your Previous Best Score: " + best;
+
+        if(int.Parse(best) > int.Parse(bully)){
+            StreamWriter writer = new StreamWriter("Assets/bestResult.txt", false);
+            writer.WriteLine(bully.ToString());
+            writer.Close();
+        }
     }
 
     public void clicked()
